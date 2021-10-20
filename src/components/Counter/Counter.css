@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_div {
+  border: black;
+  /* background-color: chartreuse; */
+  /* border-color: blue; */
+  cursor: pointer;
+  padding: 0.2rem;
+  margin: 1 rem;
+}

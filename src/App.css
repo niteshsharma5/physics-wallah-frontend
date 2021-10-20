@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Font Styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #000000; */
+  border: none;
+  font-family: "Inter";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  margin: 0.5rem 0;
+}
+
+/* Variables */
+:root {
+  --dark-blue: #110f48;
+  --logo-primary: #243cff;
+  --logo-secondary: #243cff;
+  --success: #28a745;
+  --danger: #ff4c4c;
+  /* Color Codes */
+  --primary: #246bfd;
+  --secondary: #c25fff;
+  --dark: #1f2128;
+  --dark-2: #181a20;
+  --dark-3: #151d24;
+  --dark-4: #1b1e26;
+  --dark-5: #21242d;
+  --dark-6: #1d2029;
+  --dark-card: #242731;
+  --white: #ffffff;
+  /* Gradients */
+  --gradient-1: radial-gradient(
+    102.94% 100% at 72.83% 100%,
+    #ffb8e0 0%,
+    #be9eff 38.89%,
+    #88c0fc 67.4%,
+    #86ff99 100%
+  );
+  --gradient-10: radial-gradient(
+    96.55% 1118.35% at 1.83% 19.75%,
+    #243cff 0%,
+    #b182ff 49.86%,
+    #52c0ea 100%
+  );
+  --gradient-11: radial-gradient(
+    98.17% 357.91% at 1.83% 19.75%,
+    #f37777 0%,
+    #b182ff 49.86%,
+    #497de2 100%
+  );
+  --gradient-12: linear-gradient(
+      180deg,
+      #5a82f6 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(91.34deg, #2698ea 11.48%, #ffb176 53.97%, #ed5158 100.98%);
+
+  /* Colorful */
+  --purple: #a06af9;
+  --pink: #fba3ff;
+  --violet: #8e96ff;
+  --light-blue: #94f0f0;
+  --light-blue-2: #3f8cff;
+  --dark-blue: #0043d5;
+
+  /* Dark */
+  --grey: #808191;
+  --light-grey: #494b52;
+  --light-grey-4: #4f5156;
+  --light-grey-5: #62737f;
+  --light-grey-6: #9cb3bf;
+  --light-grey-7: #909090;
+}
+
+/* Scrollbar  */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark-2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--dark);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-5);
+}
