@@ -1,14 +1,13 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React from "react";
 import AppRouter from "./router/AppRouter";
-require("dotenv").config();
 
 function App() {
-  return (
-    <div className="app">
-      <AppRouter />
-    </div>
-  );
+	return (
+		<div className="app">
+			<AppRouter />
+		</div>
+	);
 }
 
 export default App;
